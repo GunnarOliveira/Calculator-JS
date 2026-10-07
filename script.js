@@ -13,6 +13,20 @@ window.addEventListener("keydown", (event) => {
     insertToDisplay(event.key);
   }
 });
+function alternateTheme() {
+  const buttonThemeMain = document.getElementById("theme-01");
+  const buttonThemeSecondary = document.getElementById("theme-02");
+
+  buttonThemeMain.addEventListener("click", changeTheme);
+  buttonThemeSecondary.addEventListener("click", changeTheme);
+
+  function changeTheme() {
+    const body = document.querySelector("body");
+    body.setAttribute("class", "");
+    body.classList.add(this.getAttribute("id"));
+  }
+}
+alternateTheme();
 function insertToDisplay(data) {
   if (
     document.getElementById("display").value === "00" ||
