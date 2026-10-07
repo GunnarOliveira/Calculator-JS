@@ -11,6 +11,7 @@ body {
   height: 100vh;
   padding: 20px;
   background-color: #232222;
+  box-sizing: border-box;
 }
 .calculator {
   display: grid;
