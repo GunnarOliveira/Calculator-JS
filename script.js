@@ -13,6 +13,18 @@ window.addEventListener("keydown", (event) => {
     insertToDisplay(event.key);
   }
 });
+let lastTouch = 0;
+document.addEventListener(
+  "touchend",
+  (event) => {
+    const now = Date.now();
+    if (now - lastTouch <= 300) {
+      event.preventDefault();
+    }
+    lastTouch = now;
+  },
+  { passive: false },
+);
 function alternateTheme() {
   const buttonThemeMain = document.getElementById("theme-01");
   const buttonThemeSecondary = document.getElementById("theme-02");
