@@ -12,7 +12,7 @@
 
 ## 📸 Preview
 
-<p align="center">
+<p align="left">
   <img src="./screenshot-preview.png" alt="Calculator preview" width="400">
 </p>
 
