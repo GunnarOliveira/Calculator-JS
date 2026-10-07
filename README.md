@@ -12,8 +12,8 @@
 
 ## 📸 Preview
 
-<p align="center">
-  <img src="./battery-full.png" alt="Calculator preview" width="400">
+<p align="left">
+  <img src="./screenshot-preview.png" alt="Calculator preview" width="400">
 </p>
 
 <br>
