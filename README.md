@@ -27,7 +27,7 @@ The calculator supports basic arithmetic operations through an intuitive button-
 <br>
 
 ## ✨ Features
-
+- Keyboard suport
 - Addition, subtraction, multiplication and division
 - Decimal numbers
 - Clear display
